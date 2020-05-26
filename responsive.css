@@ -1,0 +1,115 @@
+@media only screen and (max-width: 1248px) {
+
+    .background-header{
+        background-position: -50px -220px;
+        background-size: 1200px;
+    }
+    
+    @keyframes autoMoveBackground {
+        0% {background-position: -50px -220px}
+        25% {background-position: 30px -180px}
+        50% {background-position: -30px -200px}
+        75% {background-position: 30px -200px}
+        100% {background-position: -50px -220px}
+    }
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    .nav-menu ul li{
+        display: none;
+    }
+
+    .nav-menu ul .menu-mobile{
+        display: block;
+    }
+
+    .background-header{
+        background-position: -150px -250px;
+        background-size: 1200px;
+    }
+    
+    @keyframes autoMoveBackground {
+        0% {background-position: -150px -250px}
+        25% {background-position: -80px -200px}
+        50% {background-position: -130px -220px}
+        75% {background-position: -80px -220px}
+        100% {background-position: -150px -250px}
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        height: 670px;
+    }
+
+    .background-header{
+        background-position: -200px -250px;
+        background-size: 1200px;
+    }
+    
+    @keyframes autoMoveBackground {
+        0% {background-position: -200px -250px}
+        25% {background-position: -220px -200px}
+        50% {background-position: -180px -220px}
+        75% {background-position: -220px -220px}
+        100% {background-position: -200px -250px}
+    }
+
+    .poster img{
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        height: 570px;
+    }
+
+    .show-nav-mobile{
+        width: 100%;
+    }
+
+    .box-post,
+    .about-me .info,
+    .info .content,
+    .box-service {
+        flex-flow: column wrap;
+    }
+
+    .info .content:after {
+        content: " ";
+        border-bottom: 11px solid #1e1e2057;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        position: absolute;
+        top: -19px;
+        left: 46%;
+    }
+
+    .story-icon>.item-icon {
+        flex: 1 1 40%;
+    }
+
+    .background-header{
+        background-position: -200px -150px;
+        background-size: 1000px;
+    }
+    
+    @keyframes autoMoveBackground {
+        0% {background-position: -200px -150px}
+        25% {background-position: -220px -170px}
+        50% {background-position: -280px -150px}
+        75% {background-position: -220px -210px}
+        100% {background-position: -200px -150px}
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    
+}
+
+@media only screen and (max-width: 320px) {
+    
+}
